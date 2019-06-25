@@ -1,0 +1,89 @@
+<html>
+   <head>
+	<title>Slider</title>
+	<style>
+	  .main{
+	  	height: 300px;
+	  	overflow:hidden;
+	  }
+	  .pic{
+	  	
+	  	height:300px;
+	  	width:33.3%;
+	  	float:left;
+
+	  }
+	  .sub{
+	  	position:relative;
+	  	width:300%;
+	  	animation: ani 5s;
+	  	animation-iteration-count: infinite;
+	  	
+
+	  }
+	  @keyframes ani{
+	  	0%{
+	  		right:0%;
+	  	}
+	  	10%{
+	  		right:0%;
+	  	}
+	  	45%{
+	  		right:100%;
+	  	}
+	  	55%{
+	  		right: 100%;
+	  	}
+	  	90%{
+	  		right: 200%;
+	  	}
+	  	100%{
+	  		right: 200%;
+	  	}
+
+	  }
+	  .i1{
+          background-image:url("http://cdn.lightgalleries.net/4bd5ebff29002/images/Cruise_Ships--1.jpg"); 
+	  }
+	  .i2{
+	  	background-image: url("A1.jpg");
+
+	  }
+      .i3{
+      	background-image: url("263822.jpg");
+      	background-size:cover;
+      	background-position: center;
+
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+    </head>
+    <body>
+          <div class="main">
+          	<div class="sub">
+          		<div class="pic i1"></div>
+          		<div class="pic i2"></div>
+          		<div class="pic i3"></div>
+          		<div style="clear:both"></div>
+          	</div>
+          </div>		
+
+
+
+
+    </body>	
+</html>
